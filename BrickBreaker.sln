@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrickBreaker", "BrickBreaker\BrickBreaker.csproj", "{A6E83AA1-7A55-42ED-BE17-A9F2499AD75E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrickBreakerDotNetCore", "BrickBreakerDotNetCore\BrickBreakerDotNetCore.csproj", "{C75E4302-2A35-4626-A81C-0C05CB21ECBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{A6E83AA1-7A55-42ED-BE17-A9F2499AD75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6E83AA1-7A55-42ED-BE17-A9F2499AD75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6E83AA1-7A55-42ED-BE17-A9F2499AD75E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75E4302-2A35-4626-A81C-0C05CB21ECBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75E4302-2A35-4626-A81C-0C05CB21ECBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75E4302-2A35-4626-A81C-0C05CB21ECBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75E4302-2A35-4626-A81C-0C05CB21ECBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C2AA7C8-6A5E-4877-81E6-63843F88EFCB}
 	EndGlobalSection
 EndGlobal
